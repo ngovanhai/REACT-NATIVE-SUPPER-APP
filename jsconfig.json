@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"],
+      "@utils/*": ["src/utils/*"],
+      "@resources/*": ["src/resources/*"],
+      "@redux-store/*": ["src/redux-store/*"],
+      "@navigators/*": ["src/navigators/*"],
+      "@data-access/*": ["src/data-access/*"],
+      "@client/*": ["src/client/*"],
+      "@i18n/*": ["src/i18n/*"],
+    }
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,18 @@
+
+import React from 'react'
+import { Image, NativeModules, Text, View } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { Button } from './components'
+
+export default function index() {
+  return (
+    <SafeAreaView><View style={{ height: "100%", overflow: 'hidden' }}><View style={{ flex: 1, margin: 10, alignItems: 'center', justifyContent: 'center' }}>
+      <Text style={{ fontWeight: 'bold' }}>Ví dụ về Image</Text>
+      <Image source={{ uri: "https://api-mini.isofh.com/api/app/files/com.isofh.test-image/logo/logo.png" }} style={{ width: 150, height: 150 }} />
+    </View>
+      <View style={{ margin: 10 }}>
+        <Button title={"Thoát"} onPress={() => {
+          NativeModules.ConnectNativeModule.closeApp("APP");
+        }}></Button></View></View></SafeAreaView>
+  )
+}

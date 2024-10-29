@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>iSofH Super App</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>isofh</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>isofh</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CodePushDeploymentKey</key>
+	<string>uO0Lfu1E46tdm2b-P1nbgEF8xPpUscr1hwqMq</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>codepush.azurewebsites.net</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>codepush.blob.core.windows.net</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>codepushupdates.azureedge.net</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Cho phép iSofH Super App truy cập thư viện nhạc của thiết bị này để lưu hoặc tải nhạc.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Our app does not request this permission or utilize this functionality but it is included in our info.plist since our app utilizes the react-native-permissions library, which references this permission in its code.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Cho phép iSofH Super App truy cập bluetooth của thiết bị này để kết nối với thiết bị khác.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Cho phép iSofH Super App truy cập lịch của thiết bị này.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow iSofH Super App access to the camera to capture picture or scan qr barcode.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow iSofH Super App access to the microphone</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Cấp quyền truy cập sẽ cho phép bạn chọn liên hệ để thanh toán.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>iSofH Super App yêu cầu quyền truy cập FaceID để cho phép bạn truy cập nhanh chóng và an toàn</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Cho phép quyền sử dụng địa chỉ để cập nhật vị trí hiện tại của bạn.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Cho phép quyền sử dụng địa chỉ để cập nhật vị trí hiện tại của bạn.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cho phép quyền sử dụng địa chỉ để cập nhật vị trí hiện tại của bạn.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Ứng dụng này yêu cầu truy cập vào chuyển động.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow iSofH Super App access to your photo library to select picture.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Ứng dụng này yêu cầu truy cập vào thư viện nhận dạng giọng nói của thiết bị.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5Free-Solid.ttf</string>
+		<string>Feather.ttf</string>
+		<string>Inter-Medium.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

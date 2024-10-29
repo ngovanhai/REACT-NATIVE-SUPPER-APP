@@ -1,0 +1,145 @@
+{
+  "project_info": {
+    "project_number": "612436577188",
+    "firebase_url": "https://cong-dong-y-te.firebaseio.com",
+    "project_id": "cong-dong-y-te",
+    "storage_bucket": "cong-dong-y-te.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612436577188:android:0d5303158b711b04",
+        "android_client_info": {
+          "package_name": "com.isofh.isofhcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612436577188-u5u1t8u4hi2iqg5n16bqk90jp4d67ug6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJf4qSKOMVBZIREluFUQaocUaWw1Ppv4M"
+        },
+        {
+          "current_key": "AIzaSyBH7VO4kN5L-5ESa8YNdwa34MDwbDzNuPk"
+        },
+        {
+          "current_key": "AIzaSyB6NuiN2osBerXBieTFIC_4Q2I_JnlWE00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612436577188-88fv8rvsnq738a9fpc6veqhg68oj9qhe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612436577188-1di3tk4pircr9rtresagtvi0vo6snjt3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.isofh.superapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612436577188:android:c40b4fbf662f5f10",
+        "android_client_info": {
+          "package_name": "com.isofh.nmcevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612436577188-7fjj1f6d9pj0qdqufkb4lubfjc2t955d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isofh.nmcevent",
+            "certificate_hash": "9c56d44b5049b3c1edfb9553b7ce86d8a3f7c906"
+          }
+        },
+        {
+          "client_id": "612436577188-u5u1t8u4hi2iqg5n16bqk90jp4d67ug6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJf4qSKOMVBZIREluFUQaocUaWw1Ppv4M"
+        },
+        {
+          "current_key": "AIzaSyBH7VO4kN5L-5ESa8YNdwa34MDwbDzNuPk"
+        },
+        {
+          "current_key": "AIzaSyB6NuiN2osBerXBieTFIC_4Q2I_JnlWE00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612436577188-88fv8rvsnq738a9fpc6veqhg68oj9qhe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612436577188-1di3tk4pircr9rtresagtvi0vo6snjt3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.isofh.superapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612436577188:android:0219f05766a6f2b36a0f31",
+        "android_client_info": {
+          "package_name": "com.isofh.superapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612436577188-u5u1t8u4hi2iqg5n16bqk90jp4d67ug6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJf4qSKOMVBZIREluFUQaocUaWw1Ppv4M"
+        },
+        {
+          "current_key": "AIzaSyBH7VO4kN5L-5ESa8YNdwa34MDwbDzNuPk"
+        },
+        {
+          "current_key": "AIzaSyB6NuiN2osBerXBieTFIC_4Q2I_JnlWE00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612436577188-88fv8rvsnq738a9fpc6veqhg68oj9qhe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612436577188-1di3tk4pircr9rtresagtvi0vo6snjt3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.isofh.superapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
